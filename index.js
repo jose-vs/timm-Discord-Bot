@@ -3,8 +3,6 @@ const bot = new Discord.Client();
 const config = require('./config.json');
 const PREFIX = 'timm.';
 
-Client.login(config.token)
-
 bot.on('ready', ()  =>{
     console.log('This bot is online!');
 })
@@ -19,4 +17,4 @@ bot.on('message', message=>{
     }
 })
 
-bot.login(token);
+bot.login(config.token);
