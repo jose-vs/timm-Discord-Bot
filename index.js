@@ -1,7 +1,9 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const token = 'NzA1MDE0MTE4MjQzMTA2ODM2.XvtQHg.kQ8H2OrLClEG8_DSVeMI82tgdEA';
+const config = require('./config.json');
 const PREFIX = 'timm.';
+
+Client.login(config.token)
 
 bot.on('ready', ()  =>{
     console.log('This bot is online!');
