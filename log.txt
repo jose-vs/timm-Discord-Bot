@@ -1,0 +1,19 @@
+Error Logs {
+
+}
+
+TODO {
+    functionality - src folder: 
+        * basic commands 
+        * allow the bot to join the channel
+
+    muskdev1:
+        * make bot store a problem from leetcode and be able to attach a solution to it anytime 
+        * allow the bot to play music queued by the user
+        
+}
+
+
+---------------------------------------------------------------------------------------------------------
+
+create a new branch on git if you want to make something experimental

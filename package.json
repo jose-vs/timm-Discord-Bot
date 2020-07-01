@@ -5,7 +5,8 @@
   "main": "./src/bot.js",
   "scripts": {
     "test": " ",
-    "lavalink": "java -jar Lavalink.jar"
+    "lavalink": "java -jar Lavalink.jar",
+    "start": "node ./src/bot.js"
   },
   "author": "Jose",
   "license": "ISC",
