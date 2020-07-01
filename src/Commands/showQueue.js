@@ -1,11 +1,10 @@
-/*
+//not done
 module.exports = {
-	name: 'showQueue',
-	description: 'shows everything thats currently in the queue up to 10 URls',
+	name: 'showqueue',
+	description: 'shows whats in the queue',
 	execute(message) {
 		const serverQueue = message.client.queue.get(message.guild.id);
 		if (!serverQueue) return message.channel.send('There is nothing playing.');
 		return message.channel.send(`Now playing: ${serverQueue.songs[0].title}`);
 	},
 };
-*/

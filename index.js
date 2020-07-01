@@ -44,7 +44,7 @@ client.on('message', async message => {
 		}
 	} catch (error) {
 		console.error(error);
-		message.reply('There was an error trying to execute that command!');
+		message.reply("I'm sorry I didn't understand that. I'm such a dd-word OwO");
 	}
 });
 
